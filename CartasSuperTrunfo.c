@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
@@ -6,8 +6,7 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-int main() {
-    printf("Desafio Super trunfo!\n");
+
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
@@ -80,4 +79,4 @@ int main() {
     printf("Pontos turísticos: %d\n", pontosTuristicos2);
 
     return 0;
-}
+    }
