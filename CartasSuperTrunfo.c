@@ -44,39 +44,55 @@ int main() {
 
     // Cadastro da primeira carta
     printf("Cadastro da primeira carta:\n");
+
     printf("Número da carta: ");
     scanf("%d", &numeroCarta1);
+
     printf("Estado: ");
     scanf("%s", estado1);
+
     printf("Código da cidade (ex: A01): ");
     scanf("%s", codigo1);
-    printf("Nome da cidade: ");
+
+    printf("Nome da cidade (sem espaços): ");
     scanf("%s", nomeCidade1);
+
     printf("População: ");
     scanf("%d", &populacao1);
+
     printf("Área (em km²): ");
     scanf("%f", &area1);
+
     printf("PIB (em bilhões de reais): ");
     scanf("%f", &pib1);
+
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosTuristicos1);
 
     // Cadastro da segunda carta
     printf("\nCadastro da segunda carta:\n");
+
     printf("Número da carta: ");
     scanf("%d", &numeroCarta2);
+
     printf("Estado: ");
     scanf("%s", estado2);
+
     printf("Código da cidade (ex: B02): ");
     scanf("%s", codigo2);
-    printf("Nome da cidade: ");
+
+    printf("Nome da cidade (sem espaços): ");
     scanf("%s", nomeCidade2);
+
     printf("População: ");
     scanf("%d", &populacao2);
+
     printf("Área (em km²): ");
     scanf("%f", &area2);
+
     printf("PIB (em bilhões de reais): ");
     scanf("%f", &pib2);
+
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontosTuristicos2);
 
