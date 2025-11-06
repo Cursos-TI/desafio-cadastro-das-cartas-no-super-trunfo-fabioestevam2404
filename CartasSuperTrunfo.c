@@ -50,8 +50,8 @@ int main() {
     scanf("%s", estado1);
     printf("Código da cidade (ex: A01): ");
     scanf("%s", codigo1);
-    printf("Nome da cidade (sem espaços): ");
-    scanf("%s", nomeCidade1);
+    printf("Nome da cidade: ");
+    scanf(" %[^\n]", nomeCidade1);
     printf("População: ");
     scanf("%d", &populacao1);
     printf("Área (em km²): ");
@@ -69,8 +69,8 @@ int main() {
     scanf("%s", estado2);
     printf("Código da cidade (ex: B02): ");
     scanf("%s", codigo2);
-    printf("Nome da cidade (sem espaços): ");
-    scanf("%s", nomeCidade2);
+    printf("Nome da cidade: ");
+    scanf(" %[^\n]", nomeCidade2);
     printf("População: ");
     scanf("%d", &populacao2);
     printf("Área (em km²): ");
